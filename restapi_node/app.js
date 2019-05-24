@@ -3,7 +3,7 @@ var produtosRouter = require('./routes/produtosRouter');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
-var url = 'mongodb://thiagorsena:thiago123@ds018268.mlab.com:18268/produtosdb'
+var url = 'mongodb://user:pass@ds018268.mlab.com:18268/dbname'
 
 var db = mongoose.connect(url);
 
